@@ -5,7 +5,8 @@
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
-$primary: $teal;
+$red: #dc3545;
+$primary: $red;
 $dark:    $black;
 $enable-rounded: false;
 
@@ -20,6 +21,7 @@ $enable-rounded: false;
 body, input, button, select, optgroup, textarea {   
     font-family:Sen;
 }
+
 body {
     line-height:1.7;
     background: #f4f4f4;
@@ -39,7 +41,8 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:50px;
 }
 .sitetag {
-    font-weight:700;    
+    font-family:'EB Garamond', serif;
+    font-weight:500;    
     line-height:1.3;
     font-size:35px;
     @include media-breakpoint-up(sm) {
@@ -207,6 +210,7 @@ img, img:hover {
         padding: 80px 30px 80px 100px;
         h3 {
             margin-bottom:30px;
+            font-family:'EB Garamond', serif;
         }
         li {
             list-style: none;
@@ -247,6 +251,8 @@ img, img:hover {
         margin-right: 7px;
     }
     .card {
+        width:100%;
+        border-radius:12px;
         border:0;
         &:hover {           
            .card-title a { 
@@ -255,7 +261,8 @@ img, img:hover {
         }
     }
     .card-title {
-        font-weight:700;
+        font-family:'EB Garamond', serif;
+        font-weight:500;
         font-size:22px;
         line-height:1.4;
         a { 
@@ -278,6 +285,7 @@ img, img:hover {
     .card-footer {
        font-size:14px;
         border-top:0;
+        border-radius: 0px 0px 12px 12px;
         padding: 1rem 1.25rem;
         a {
             color:inherit;
@@ -293,6 +301,7 @@ img, img:hover {
         height:240px;
         width:100%;
         object-position:top;
+        border-radius: 12px 12px 0px 0px;
     }
 }
 .firstpage {
@@ -327,7 +336,7 @@ img, img:hover {
             object-position:top;
         }
         .card-title {
-            font-size:18px;
+            font-size:22px;
             line-height:1.5;
         }      
     }
@@ -342,6 +351,7 @@ img, img:hover {
         cursor:pointer;
         &:hover {
             background: $primary;
+            color: #fff;
             text-decoration:none;
         }
     }
@@ -362,6 +372,7 @@ img, img:hover {
 .newsletter {
     h4 {
         line-height:1.3;
+        font-family:'EB Garamond', serif;
     }
     margin-top:120px;   
     img.newsletter-logo {
@@ -379,7 +390,7 @@ img, img:hover {
             min-width:250px;
         }
         input[type="submit"] {    
-            color: #222;
+            color: #fff;
             padding: 4px 20px;
             margin-left:-5px;
             background:$primary;
@@ -401,8 +412,9 @@ img, img:hover {
     margin-right: auto;
 }
 .posttitle {
+    font-family:'EB Garamond', serif;
     font-size:50px;
-    font-weight:700;
+    font-weight:500;
     line-height:1.2;
 }
 .entry-featured-image {  
