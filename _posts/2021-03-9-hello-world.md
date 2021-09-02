@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
-author: sal
+author: sally
 categories: [ Lifestyle ]
 tags: [ France ]
 image: assets/images/2.jpg
