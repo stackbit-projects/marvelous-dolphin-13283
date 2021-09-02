@@ -9,5 +9,5 @@ imageshadow: true
 
 This website is a demonstration to see **Memoirs Jekyll theme** in action. The theme is compatible with Github pages, in fact even this demo itself is created with Github Pages and hosted with Github. 
 
-<a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/" class="btn btn-dark"> Follow on Instagram &rarr;</a>
+<a target="_blank" href="https://instagram.com/loveful.in" class="btn btn-dark"> Follow on Instagram &rarr;</a>
 
