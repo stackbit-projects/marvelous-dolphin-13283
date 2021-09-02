@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Yolo World"
+title:  "Yalla World"
 author: sal
 categories: [ Lifestyle ]
 tags: [ France ]
