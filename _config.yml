@@ -1,8 +1,8 @@
 name: Loveful
 title: Loveful
 description: >-
-  I will take you on the fabulous world of exploration. Travel, culture,
-  lifestyle. Eat, Pray, Love!
+  I will take you on the fabulous world of exploration. <i>Travel, culture,
+  lifestyle. Eat, Pray, Love! Test Test!</i>
 logo: assets/images/l_logo.png
 favicon: assets/images/fav.png
 baseurl: ''
