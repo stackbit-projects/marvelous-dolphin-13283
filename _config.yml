@@ -1,11 +1,11 @@
-name: Memoirs
-title: Memoirs
+name: Loveful
+title: Loveful
 description: >-
-  I will take you on the fabulous world of exploration. Travel, culture,
-  lifestyle. Eat, Pray, Love!
-logo: assets/images/logo.png
-favicon: assets/images/logo.png
-baseurl: ''
+  I will take you on the fabulous world of exploration. <i>Travel, culture,
+  lifestyle. Eat, Pray, Love! Test test!</i>
+logo: assets/images/l_logo.png
+favicon: assets/images/fav.png
+baseurl: 'https://loveful.in/'
 google_analytics: UA-xxxxxxxx-1
 disqus: demowebsite
 mailchimp-list: >-
@@ -16,8 +16,8 @@ permalink: '/:title/'
 email: wowthemesnet@gmail.com
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: Sallu
+    display_name: Sallu
     avatar: assets/images/avatar-sal.png
     email: wowthemesnet@gmail.com
     web: 'https://www.wowthemes.net/donate/'
